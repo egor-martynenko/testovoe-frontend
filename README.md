@@ -22,7 +22,7 @@ npm start
 Тестирование API
 Вы можете использовать cURL:
 
-curl -X GET https://fakestoreapi.com/products 
+curl -X GET https://fakestoreapi.com/products </br>
 curl -X GET https://fakestoreapi.com/carts/user/1 ( либо другой USER ID )
 
 Войти в онлайн магазин вы можете по:
