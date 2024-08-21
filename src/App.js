@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Cart, Login, CategoryMenu, ProductList } from './components';
 
 function App() {
+  const [activeCategory, setActiveCategory] = useState('all');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="mx-auto container">
+      <header className='flex justify-between items-center'>
+        <span className="text-2xl font-bold">Logo</span>
+        <ul className='flex justify-between gap-8'>
+          <Login />
+          <Cart />
+        </ul>
       </header>
+      <CategoryMenu activeCategory={activeCategory}  handleSetCategory={setActiveCategory} />
+      <ProductList activeCategory={activeCategory} /> 
     </div>
   );
 }
