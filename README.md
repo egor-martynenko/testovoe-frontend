@@ -3,7 +3,7 @@ telegram: @martynenko_egor
 
 - Установка проекта
 
-1. Выполните команду для клонирования репозитория:</br
+1. Выполните команду для клонирования репозитория:</br>
 git clone https://github.com/egor-martynenko/testovoe-frontend.git
 
 2. Перейдите в директорию проекта:</br>
