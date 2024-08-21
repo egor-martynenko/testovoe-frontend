@@ -1,4 +1,4 @@
-Тестовое задание на IT-стажировку. (frontend)
+Тестовое задание на IT-стажировку. (frontend)</br>
 telegram: @martynenko_egor
 
 - Установка проекта
@@ -19,7 +19,7 @@ npm install
 npm start
 
 
-Тестирование API
+Тестирование API</br>
 Вы можете использовать cURL:
 
 curl -X GET https://fakestoreapi.com/products </br>
