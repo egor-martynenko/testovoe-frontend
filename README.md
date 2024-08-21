@@ -25,6 +25,6 @@ npm start
 curl -X GET https://fakestoreapi.com/products </br>
 curl -X GET https://fakestoreapi.com/carts/user/1 ( либо другой USER ID )
 
-Войти в онлайн магазин вы можете по:
- username:'johnd',
+Войти в онлайн магазин вы можете по:</br>
+ username:'johnd',</br>
  password:'m38rmF$'
